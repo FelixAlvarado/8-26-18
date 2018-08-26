@@ -1,0 +1,7 @@
+Compare and contract CSRF and XSS. How do you prevent them? 
+
+CSRF: forces the user to perform unwanted requrests when they are currently authenticated. the attacks specifically target state changin requets. 
+prevent them by using post for sensative sactions, catchas (not a robot varification), prompt user to login w/ actions 
+
+XSS: allowing malicious code to be injected in a website (through inputs). 
+prevent: don't trust user input. escape it. 
