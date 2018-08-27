@@ -1,3 +1,5 @@
+//next time instead of using recursion/sub problems, use BFS
+
 var cutOffTree = function(forest) {
     let cache = cacheBuilder(forest);
     let positions = cache[0];
